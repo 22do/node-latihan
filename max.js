@@ -14,5 +14,11 @@ function nilaiMaks(x) {
   }
   return nilai_mak;
 }
+const arr1 = [1, 1, 1, 1, 1, 1, 1, 11, 99, 1, 1, 1, 1];
+const arr2 = [1, 1, 1, 1];
+const arr3 = [3, 3, 3, 3];
 
+console.log(nilaiMaks(arr1) == 99);
+console.log(nilaiMaks(arr2) == 1);
+console.log(nilaiMaks(arr3) == 3);
 //export default nilaiMaks;
