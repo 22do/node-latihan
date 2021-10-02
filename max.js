@@ -5,7 +5,7 @@ function nilaiMaks(x) {
       if (i == 0) {
         var nilai_mak = x[i];
       } else {
-        if (x[i] < nilai_mak) {
+        if (x[i] > nilai_mak) {
           nilai_mak = x[i];
         }
       }
@@ -15,4 +15,4 @@ function nilaiMaks(x) {
   return nilai_mak;
 }
 
-export default nilaiMaks;
+//export default nilaiMaks;
