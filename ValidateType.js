@@ -24,16 +24,17 @@ function validateType(object1) {
             let keterangan = object1["data utama"]["properties"][properti];
             //console.log(keterangan) = type dll
             if (
-              keterangan ||
-              "text" ||
-              "number" ||
-              "telp-number" ||
-              "password"
+              keterangan === "text" ||
+              keterangan === "number" ||
+              keterangan === "telp-number" ||
+              keterangan === "password"
             ) {
               //console.log(`${keterangan } =`, true)
               hasil = true;
             } else {
+              //console.log(`${keterangan } =`, false)
               hasil = false;
+              break
             }
           }
         }
