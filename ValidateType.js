@@ -26,6 +26,9 @@ function validateType(object1){
 							//console.log(`${keterangan } =`, true)
 							hasil = true
 						}
+            else {
+              hasil = false
+            }
 					}
 				}
 			}
